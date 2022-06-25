@@ -4,6 +4,7 @@ html {
 }
 
 body {
+	background-color: white;
 	height: 100%;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
 		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -16,7 +17,7 @@ header {
 	justify-content: space-between;
 	height: 54px;
 	padding: 2rem;
-	background-color: rgb(41, 42, 43);
+	border-bottom: 1px solid black;
 }
 header a {
 	display: flex;
@@ -24,11 +25,9 @@ header a {
 }
 
 main {
-	height: calc(100% - calc(54px + 50px));
-	background-color: rgb(33, 33, 33);
 	padding: 8rem 2rem;
 	line-height: 1.4;
-	color: rgb(155, 154, 154);
+	color: black;
 }
 
 footer {
@@ -38,7 +37,7 @@ footer {
 	justify-content: space-between;
 	height: 50px;
 	padding: 2rem;
-	background-color: rgb(41, 42, 43);
+	border-top: 1px solid black;
 }
 footer a {
 	display: flex;
@@ -46,12 +45,7 @@ footer a {
 }
 
 a {
-	color: rgb(155, 154, 154);
-}
-a:hover,
-a:focus,
-a:active {
-	color: rgb(255, 255, 255);
+	color: black;
 }
 
 .text-center {
